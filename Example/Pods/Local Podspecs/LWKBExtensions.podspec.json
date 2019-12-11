@@ -18,5 +18,5 @@
     "ios": "8.0"
   },
   "source_files": "LWKBExtensions/Classes/**/*",
-  "public_header_files": "Pod/Classes/**/*.h"
+  "public_header_files": "LWKBExtensions/Classes/**/*.h"
 }
