@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LWKBExtensions_Example' do
+  pod 'LWKBExtensions', :path => '../'
+
+  target 'LWKBExtensions_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
