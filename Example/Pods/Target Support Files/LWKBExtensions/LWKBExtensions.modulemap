@@ -1,0 +1,6 @@
+framework module LWKBExtensions {
+  umbrella header "LWKBExtensions-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_LWKBExtensions_Tests {
+  umbrella header "Pods-LWKBExtensions_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

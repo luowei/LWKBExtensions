@@ -1,0 +1,22 @@
+{
+  "name": "LWKBExtensions",
+  "version": "1.0.0",
+  "summary": "A short description of LWKBExtensions.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://gitlab.com/ioslibraries1/lwkbextensions.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "luowei": "luowei@wodedata.com"
+  },
+  "source": {
+    "git": "https://gitlab.com/ioslibraries1/lwkbextensions.git"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LWKBExtensions/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h"
+}
