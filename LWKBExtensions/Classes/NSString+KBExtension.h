@@ -10,9 +10,9 @@
 
 @interface NSString (KBExtension)
 
-- (CGFloat)widthWithFont:(UIFont *)font andAttributes:(NSDictionary *)attributes;
+- (CGFloat)widthWithFont:(UIFont *)font;
 
-- (CGFloat)heigthWithWidth:(CGFloat)width andFont:(UIFont *)font andAttributes:(NSDictionary *)attributes;
+- (CGFloat)heigthWithWidth:(CGFloat)width andFont:(UIFont *)font;
 
 - (void)enumerateCharactersUsingBlock:(void (^)(NSString *character, NSInteger idx, bool *stop))block;
 

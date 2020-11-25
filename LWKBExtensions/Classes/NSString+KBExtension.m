@@ -10,12 +10,13 @@
 
 @implementation NSString (KBExtension)
 
-- (CGFloat)widthWithFont:(UIFont *)font andAttributes:(NSDictionary *)attributes {
+- (CGFloat)widthWithFont:(UIFont *)font {
+    NSDictionary *attributes = @{NSFontAttributeName:font};
     return [[[NSAttributedString alloc] initWithString:self attributes:attributes] size].width;
 }
 
-- (CGFloat)heigthWithWidth:(CGFloat)width andFont:(UIFont *)font andAttributes:(NSDictionary *)attributes {
-
+- (CGFloat)heigthWithWidth:(CGFloat)width andFont:(UIFont *)font {
+    NSDictionary *attributes = @{NSFontAttributeName:font};
     NSAttributedString *attrStr = [[NSAttributedString alloc] initWithString:self attributes:attributes];
     CGRect rect = [attrStr boundingRectWithSize:CGSizeMake(width, CGFLOAT_MAX) options:NSStringDrawingUsesLineFragmentOrigin | NSStringDrawingUsesFontLeading context:nil];
     return rect.size.height;
