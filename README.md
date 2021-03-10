@@ -20,6 +20,11 @@ it, simply add the following line to your Podfile:
 pod 'LWKBExtensions'
 ```
 
+**Carthage**
+```ruby
+github "luowei/LWKBExtensions"
+```
+
 ## Author
 
 luowei, luowei@wodedata.com
