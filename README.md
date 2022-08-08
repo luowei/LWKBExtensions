@@ -9,6 +9,52 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+```Objective-C
+
+@interface NSArray (KBExtension)
+//解析Emoji表情ini文件字符串
++ (NSArray *)dictFromEmoticonIni:(NSString *)iniString;
+@end
+```
+
+```Objective-C
+@interface NSString (KBExtension)
+
+- (CGFloat)widthWithFont:(UIFont *)font;
+
+- (CGFloat)heigthWithWidth:(CGFloat)width andFont:(UIFont *)font;
+
+- (void)enumerateCharactersUsingBlock:(void (^)(NSString *character, NSInteger idx, bool *stop))block;
+
+-(NSString *)URLDecode;
+-(NSString *)URLEncode;
+
+@end
+
+@interface NSString (UIImage)
+- (UIImage *)image:(CGSize)size;
+@end
+```
+
+```Objective-C
+@interface UIImageView (Rotate)
+
+- (void)rotate360WithDuration:(CGFloat)duration repeatCount:(float)repeatCount;
+
+- (void)pauseAnimations;
+
+- (void)resumeAnimations;
+
+- (void)stopAllAnimations;
+@end
+```
+
+```Objective-C
+@interface UIImageView (Extension)
+- (void)setBorder:(CGFloat)borderWidth color:(UIColor*)color;
+@end
+```
+
 ## Requirements
 
 ## Installation
