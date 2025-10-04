@@ -11,6 +11,7 @@ A comprehensive collection of iOS extensions specifically designed for custom ke
 
 ## Table of Contents
 
+- [Swift Version](./README_SWIFT_VERSION.md)
 - [Features](#features)
 - [Requirements](#requirements)
 - [Installation](#installation)

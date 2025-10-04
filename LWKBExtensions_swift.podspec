@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint LWKBExtensions.podspec' to ensure this is a
+# Be sure to run `pod lib lint LWKBExtensions_swift.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'LWKBExtensions'
+  s.name             = 'LWKBExtensions_swift'
   s.version          = '1.0.0'
-  s.summary          = '万能输入法的键盘使用到的类的扩展.'
+  s.summary          = 'LWKBExtensions Swift version - Keyboard utility extensions written in Swift.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-LWKBExtensions，万能输入法的键盘使用到的类的扩展.
+LWKBExtensions Swift version - This is the Swift submodule of LWKBExtensions containing keyboard utility extensions written in Swift.
                        DESC
 
   s.homepage         = 'https://github.com/luowei/LWKBExtensions'
@@ -29,15 +29,15 @@ LWKBExtensions，万能输入法的键盘使用到的类的扩展.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
+  s.swift_version = '5.0'
 
-  s.source_files = 'LWKBExtensions/Classes/**/*'
-  s.exclude_files = 'LWKBExtensions/Swift/**/*.swift'
+  s.source_files = 'LWKBExtensions_swift/Swift/**/*'
 
   # s.resource_bundles = {
-  #   'LWKBExtensions' => ['LWKBExtensions/Assets/*.png']
+  #   'LWKBExtensions_swift' => ['LWKBExtensions_swift/Assets/*.png']
   # }
 
-  s.public_header_files = 'LWKBExtensions/Classes/**/*.h'
+  # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
