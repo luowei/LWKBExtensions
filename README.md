@@ -1,5 +1,12 @@
 # LWKBExtensions
 
+
+## graphify Knowledge Graph
+
+- Interactive graph: https://luowei.github.io/LWKBExtensions/
+- Report: https://luowei.github.io/LWKBExtensions/GRAPH_REPORT.md
+- Graph data: https://luowei.github.io/LWKBExtensions/graph.json
+
 [English](./README.md) | [中文版](./README_ZH.md)
 
 [![CI Status](https://img.shields.io/travis/luowei/LWKBExtensions.svg?style=flat)](https://travis-ci.org/luowei/LWKBExtensions)
